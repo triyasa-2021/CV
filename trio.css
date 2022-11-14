@@ -1,0 +1,62 @@
+/*******************************CLASS SELECTOR************************************/
+
+
+.navbar-nav li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar-nav li a:hover{
+    text-decoration:underline;
+    color: blueviolet;
+}
+
+.navbar-nav li{
+    padding: 10px;
+    margin-right: 50px;
+}
+.navbar-brand{
+    font-family: cursive;
+}
+.top-container{
+    height: 750px;
+    width: auto;
+    text-align: center;
+    background-image: url(images/OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(155, 155, 7);
+    text-align: center;
+}
+.intro{
+    padding-top: 350px;
+}
+.intro h1{
+    font-family: cursive;
+}
+.mid-container{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.profile{
+    font-size: large;
+    border: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+.skills{
+    padding: 40px;
+
+}
+/*******************************TAG SELECTOR************************************/
+body{
+    text-align: center;
+}
+hr{
+    border-color: darkgrey;
+}
+footer{
+    padding: auto;
+    height: 170px;
+}
